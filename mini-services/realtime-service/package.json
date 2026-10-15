@@ -1,0 +1,14 @@
+{
+  "name": "emr-realtime-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Independent Socket.IO real-time mini-service for the EMR Appointment Management System.",
+  "scripts": {
+    "dev": "bun --hot index.ts",
+    "start": "bun index.ts"
+  },
+  "dependencies": {
+    "socket.io": "^4.8.1"
+  }
+}
